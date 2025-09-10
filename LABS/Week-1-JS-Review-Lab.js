@@ -531,7 +531,7 @@ console.log(realtorFees(listings[6]))
  * Task-5: Sort the listing array ascendingly in a new variable called listingAscendingly
  */
 //WRITE YOUR CODE BELOW
-let listingAscendingly = listings.sort((listA, listB) => listA.id - listB.id
+let listingAscendingly = listings.sort((listA, listB) => listA.price - listB.price
 )
 
 console.log(listingAscendingly)
