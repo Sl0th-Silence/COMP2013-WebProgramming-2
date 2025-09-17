@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+.Card-Component
+{
+  border: solid red 3px;
+  padding: 2%;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.main-container
+{
+  border: solid lightblue 3px;
+  padding: 20px;
+  border-radius: 5%;
+  display:flex;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+
+}
