@@ -3,10 +3,10 @@ import Card from './assets/Components/Card'
 
 function App() {
   return (
-    document.body.style.backgroundColor="grey",
+    document.body.style.backgroundColor="#e9e9e9",
     <>
-      <h1>Resorts Lite</h1>
-        <hr></hr>
+      <h1 className='title'>Resorts Lite</h1>
+        <hr className='main-line'></hr>
       <div className='card-container'>
 
         <Card image="src/assets/images/1.jpg"

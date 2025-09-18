@@ -58,7 +58,7 @@
 }
 
 .card-good-review{
-  color:rgb(0, 248, 0);
+  color:green;
 }
 
 .location{
@@ -66,6 +66,15 @@
   font-size: 18px;
 }
 
+.price, .title, .resort{
+  color: grey;
+}
+
 .resort{
   font-weight: bold;
+}
+
+.main-line{
+  background-color: grey;
+  height: 5px;
 }
